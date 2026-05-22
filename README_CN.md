@@ -186,27 +186,6 @@ wavelength,intensity
 - NumPy
 - Matplotlib
 
-提交代码前可以先运行语法检查：
-
-```bat
-python -m py_compile spectral_analysis_gui.py
-```
-
-## 不建议提交到 GitHub 的内容
-
-仓库已通过 `.gitignore` 排除以下内容：
-
-- `build/`
-- `dist/`
-- `release/`
-- exe 打包产物
-- 本地实验数据
-- 论文文档
-- 临时结果图片
-
-如果需要发布 exe，建议使用 GitHub Releases，而不是直接提交到源码仓库。
-
 ## 许可证
 
 本项目使用 MIT License。详情请见 [LICENSE](LICENSE)。
-

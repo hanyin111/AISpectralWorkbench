@@ -170,26 +170,6 @@ However, PyInstaller packaging is not strong encryption. A determined reverse en
 - AI inference: PyTorch.
 - Image processing: OpenCV, SciPy, NumPy.
 
-Before committing changes, run:
-
-```bat
-python -m py_compile spectral_analysis_gui.py
-```
-
-## GitHub Upload Notes
-
-The repository intentionally ignores:
-
-- `build/`
-- `dist/`
-- `release/`
-- generated exe files
-- local experiment data
-- thesis documents
-- temporary result images
-
-This keeps the GitHub repository small and avoids accidentally publishing private lab data.
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
