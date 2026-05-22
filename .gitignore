@@ -1,0 +1,57 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build outputs
+build/
+dist/
+release/
+*.spec
+
+# Installer/runtime logs
+*.log
+pip-wheel-metadata/
+
+# Local IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data and experiment outputs
+Digital_Twin_Dataset/
+models/
+outputs/
+results/
+tmp/
+tmp_*/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.csv
+*.txt
+!requirements.txt
+!requirements-dev.txt
+
+# Documents that may contain private thesis or lab data
+*.doc
+*.docx
+*.pdf
+
+# Keep required model weights in this repository
+!best_2d_denoise_model.pth
+!peak_finder_argmax.pth
