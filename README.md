@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)](#)
 
+中文说明请见 [README_CN.md](README_CN.md).
+
 AI Spectral Analysis Workbench is a Windows desktop application for photoluminescence spectral image processing. It integrates traditional DSP denoising, AI-based 2D U-Net denoising, AI sub-pixel peak localization, and Zolix TXT/CSV spectrum visualization into one mouse-driven graphical interface.
 
 The project was built for weak-light spectral analysis workflows where CCD spectral images and Zolix slow-scan data need to be compared, visualized, and processed quickly.
@@ -191,4 +193,3 @@ This keeps the GitHub repository small and avoids accidentally publishing privat
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
